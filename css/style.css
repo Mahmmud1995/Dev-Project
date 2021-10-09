@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #f5f5f5;
+    font-family: var(--bs-font-sans-serif);
+}
+/* First Section */
+.first-sec
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.layer
+{
+    background-color:rgba(0, 0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+.first-sec-content h1
+{
+    font-size: 80px;
+    color: white;
+}
+.first-sec-content h2
+{
+    font-size: 40px;
+    color: white;
+}
+nav a
+{
+    font-size: 20px;
+}
+.logo a
+{
+    font-size: 30px;
+}
+/* Second Section */
+.con1
+{
+   
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.sec2-content-one h5
+{
+    color: black;
+}
+.line1
+{
+    width: 100%;
+    height: 10px;
+    background-color:#0dcaf0;;
+}
+.line-layer1
+{
+    width: 85%;
+    height: 10px;
+    background-color:#0d6efd;;
+}
+.line2
+{
+    width: 100%;
+    height: 10px;
+    background-color:#0dcaf0;;
+}
+.line-layer2
+{
+    width: 75%;
+    height: 10px;
+    background-color:#0d6efd;;
+}
+.line3
+{
+    width: 100%;
+    height: 10px;
+    background-color:#0dcaf0;;
+}
+.line-layer3
+{
+    width: 50%;
+    height: 10px;
+    background-color:#0d6efd;;
+}
+.line4
+{
+    width: 100%;
+    height: 10px;
+    background-color:#0dcaf0;;
+}
+.line-layer4
+{
+    width: 90%;
+    height: 10px;
+    background-color:#0d6efd;;
+}
+.lines h2 
+{
+    color: black;
+}
+.lines h5
+{
+    padding: 5px 3px;
+    color: black;
+    font-size: 15px;
+}
+.con2 h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 3px solid #0d6efd;
+    
+}
+.con2 p
+{
+    font-size: 23px;
+}
+/* third section */
+.third-sec-info h2
+{
+    color:#1e1e1e;
+    font-weight: bolder;
+    font-size: 40;
+}
+.third-sec-items h2
+{
+    color:#1e1e1e;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.blue-line
+{
+    background-color: #0078ff ;
+    width: 50px;
+    height: 5px;
+    position: relative;
+    left: 48%; 
+}
+.breif1
+{
+    background-color: white;
+    border-bottom: solid white;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+   
+}
+.brief
+{
+   
+   font-size: 50px;
+   padding: 30px;
+   border: solid #0078ff ;
+   border-radius: 50%;;
+   border-width: 8px;
+   color: black;
+   transition:all .5s;
+}
+.brief:hover
+{
+    background-color:  #0078ff;
+    border-color: rgb(204, 199, 199);
+    color:white;
+
+}
+.check1
+{
+    background-color: white;
+    border-bottom: solid white;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.check
+{
+   
+   font-size: 50px;
+   padding: 30px;
+   border: solid #0078ff ;
+   border-radius: 50%;;
+   border-width: 8px;
+   color: black;
+   transition:all .5s;
+  
+}
+.check:hover
+{
+    background-color:  #0078ff;
+    border-color: rgb(204, 199, 199);
+    color:white;
+
+}
+.chart1
+{
+    background-color: white;
+    border-bottom: solid white;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.chart
+{
+   
+   font-size: 50px;
+   padding: 30px;
+   border: solid #0078ff ;
+   border-radius: 50%;;
+   border-width: 8px;
+   color: black;
+   transition:all .5s;
+  
+}
+.chart:hover
+{
+    background-color:  #0078ff;
+    border-color: rgb(204, 199, 199);
+    color:white;
+
+}
+.culars1
+{
+    background-color: white;
+    border-bottom: solid white;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.culars
+{
+   
+   font-size: 50px;
+   padding: 30px;
+   border: solid #0078ff ;
+   border-radius: 50%;;
+   border-width: 8px;
+   color: black;
+   transition:all .5s;
+  
+}
+.culars:hover
+{
+    background-color:  #0078ff;
+    border-color: rgb(204, 199, 199);
+    color:white;
+
+}
+.sun1
+{
+    background-color: white;
+    border-bottom: solid white;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.sun
+{
+   
+   font-size: 50px;
+   padding: 30px;
+   border: solid #0078ff ;
+   border-radius: 50%;;
+   border-width: 8px;
+   color: black;
+   transition:all .5s;
+}
+.sun:hover
+{
+    background-color:  #0078ff;
+    border-color: rgb(204, 199, 199);
+    color:white;
+
+}
+.calendar1
+{
+    background-color: white;
+    border-bottom: solid white;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.calendar
+{
+   
+   font-size: 50px;
+   padding: 30px;
+   border: solid #0078ff ;
+   border-radius: 50%;;
+   border-width: 8px;
+   color: black;
+   transition:all .5s;
+  
+}
+.calendar:hover
+{
+    background-color:  #0078ff;
+    border-color: rgb(204, 199, 199);
+    color:white;
+
+}
+/* frth section */
+.frth-sec
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-position:  center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.frth-sec-layer
+{
+    background-color: #0078ff;
+    opacity: 0.7;
+}
+
+.check-mark
+{
+   
+    font-size: 25px;
+    padding: 20px;
+    border: solid white ;
+    border-width: 8px;
+    color: white;
+   
+ }
+.book
+{
+   
+    font-size: 25px;
+    padding: 20px;
+    border: solid white ;
+    border-width: 8px;
+    color: white;
+   
+ }
+.friends
+{
+   
+    font-size: 25px;
+    padding: 20px;
+    border: solid white ;
+    border-width: 8px;
+    color: white;
+   
+ }
+ .award
+{
+   
+    font-size: 25px;
+    padding: 20px;
+    border: solid white ;
+    border-width: 8px;
+    color: white;
+   
+ }
+ /* fifth section */
+ .fifth-sec-info h2
+{
+    color:#1e1e1e;
+    font-weight: bolder;
+    font-size: 40;
+}
+.blue-line
+{
+    background-color: #0078ff ;
+    width: 50px;
+    height: 5px;
+    position: relative;
+    left: 48%; 
+}
+.pic
+{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    overflow: hidden;
+}
+.pic:hover img
+{
+    transform: scale(1.1,1.1);
+    transition: all 0.7s;
+    
+}
+.pic h5
+{
+    color: #1e1e1e;;
+}
+.plus1
+{
+   
+    font-size: 40px;
+    padding: 20px;
+    border-width: 8px;
+    color:#0078ff ;
+   
+ }
+
+.testimonials
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position:  center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.test-layer
+{
+    background-color:rgba(0, 122, 255,0.6);
+    
+}
+.seventh-sec-info h2
+{
+    color:#1e1e1e;
+    font-weight: bolder;
+    font-size: 40;
+}
+.seventh-sec-items h2
+{
+    color:#1e1e1e;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.blue-line
+{
+    background-color: #0078ff ;
+    width: 50px;
+    height: 5px;
+    position: relative;
+    left: 48%; 
+}
+.svnth-shadow
+{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.seventh-sec-pics img
+{
+  width: 100%;
+  align-items: center;
+}
+.svnth-link a
+{
+  text-decoration: none;
+  color: #1e1e1e;  
+  font-size: 20px;
+  font-weight: bold;
+}
+.svnth-link:hover a
+{
+    color: #0078ff;
+    transition: all 0.7s;
+}
+.svnth-items img
+{
+    width: 40px;
+    padding: 5px;
+}
+.svnth-items
+{
+    background-color: #f5f5f5;
+}
+.svnth-items a
+{
+    text-decoration: none;
+    color: #1e1e1e;  
+    font-size: 15px;
+    
+    
+}
+.svnth-items:hover a
+{
+    color: #0078ff;
+    transition: all 0.7s;
+}
+
+
+.contactus
+{
+    background-image: url(../images/overlay-bg.jpg);
+}
+.section-overlay
+{
+    background-color: rgb(0 120 255 / 0.7);
+    padding: 60px 0;
+}
+.contactus .section-overlay
+{
+    padding-top: 125px;
+}
+.contactus .contactus-box
+{
+    padding: 50px 40px;
+}
+.contactus .contactus-box h2
+{
+    color:#1e1e1e;
+}
+.contactus form textarea
+{
+    resize: none;
+}
+.contactus form button
+{
+    background-color: #0078ff;
+    border-radius: 50px;
+    font-size: 18px;
+    border: solid 4px;
+    transition: all 0.3s ease-in;
+}
+.contactus form button:hover
+{
+    border-color: #0dcaf0;
+    background-color: rgb(0 123 255 / 0.8);
+}
+.contactus .contacts-icons 
+{
+    color: #0078ff;
+    width: 30px;
+}
+.contactus .contacts-socials > div
+{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: #0078ff solid 3px;
+    transition: all 0.3s ease-in;
+}
+.contactus .contacts-socials > div a 
+{
+    color: #0078ff;
+    transition: all 0.3s ease-in;
+}
+.contactus .contacts-socials > div:hover
+{
+    border: 3px solid #0dcaf0;
+    background-color: #0078ff;
+}
+.contactus .contacts-socials > div:hover .contacts-socials-link
+{
+    color: white;
+}
